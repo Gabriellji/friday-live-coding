@@ -1,3 +1,7 @@
+.logo-path {
+  transition: all 0.3s ease-out;
+}
+
 .button {
   font-family: "Open Sans", Verdana, sans-serif;
   padding: 11px 25px 13px;
@@ -75,6 +79,10 @@ h4 {
   font-weight: 600;
   font-size: 22px;
   line-height: 30px;
+}
+
+.logo-svg:hover .logo-path {
+  fill: #FF9900;
 }
 
 .wrapper {
