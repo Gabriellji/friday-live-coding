@@ -46,17 +46,17 @@
         </div>
     </section>
     <section class="tools">
-        <div class="wrapper">
+        <div class="wrapper tools__wrapper">
             <h2 class="tools__title">We design tools to unveil your superpowers</h2>
             <div class="layout-4-column">
                 <div class="tool">
                     <div class="tool__icon">
-                        <span class="icon-square icon-square_lilium">
+                        <span class="icon-square icon-square_violet">
                             <span class="ico ico_arrow"></span>
                         </span>
                     </div>
-                    <h4>First click tests</h4>
-                    <p>While most people enjoy casino gambling</p>
+                    <h4 class="tool__title">First click tests</h4>
+                    <p class="tool__text">While most people enjoy casino gambling</p>
                 </div>
                 <div class="tool">
                     <div class="tool__icon">
@@ -86,7 +86,7 @@
                     <p>Personal choices and the overall personality of the person.</p>
                 </div>
             </div>
-            <div class="tools-button">
+            <div class="tools__button">
                 <button class="button button_colored">Sign Up Now</button>
             </div>
         </div>
@@ -101,13 +101,15 @@
                 <span class="tag tag_bordered">Culture</span>
                 <span class="tag tag_bordered">Design</span>
             </div>
-            <div class="layout-3-column">
+            <div class="layout-3-column strategy-wrapper">
                 <article class="strategy block-shadowed">
                     <img class="strategy__image" src="./img/strategies/1.jpg" alt="strategy">
-                    <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
-                    <div class="strategy__tags tags">
-                        <span class="tag tag_colored">Art</span>
-                        <span class="tag tag_colored">Design</span>
+                    <div class="strategy__content">
+                        <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
+                        <div class="strategy__tags tags">
+                            <span class="tag tag_colored">Art</span>
+                            <span class="tag tag_colored">Design</span>
+                        </div>    
                     </div>
                 </article>
                 <article class="strategy block-shadowed">
@@ -192,11 +194,11 @@
                 </div>
                 <div class="contact-us__form">
                     <form action method="POST">
-                        <div class="layout-2-column">
+                        <div class="layout-2-column contact-us__line">
                             <input type="text" name="name" placeholder="Your name">
                             <input type="email" name="email" placeholder="Your email">
                         </div>
-                        <textarea name="question" placeholder="What do you want to ask?"></textarea>
+                        <textarea name="question" placeholder="What do you want to ask?" contact-us__line></textarea>
                         <div class="contact-us__button">
                             <button type="submit" class="button button_colored">Send</button>
                         </div>
