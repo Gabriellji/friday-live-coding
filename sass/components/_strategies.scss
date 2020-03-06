@@ -13,7 +13,12 @@
 .strategies__tags {
     margin-bottom: 31px;
 }
-// Strategy
+
+//Strategy
+.strategy {
+    cursor: pointer;
+}
+
 .strategy-wrapper {
     >* {
         margin-bottom: 30px;
