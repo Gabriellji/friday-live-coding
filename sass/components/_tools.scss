@@ -22,6 +22,7 @@
 }
 
 //Tool Block
+
 .tool-container {
     @include media-tablet {
         flex-wrap: wrap;
@@ -42,6 +43,7 @@
         text-align: center;
     }
 }
+
 .tool__icon {
     margin-bottom: 30px;
 }

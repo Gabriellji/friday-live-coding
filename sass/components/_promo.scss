@@ -18,7 +18,7 @@
         padding-right: 0;
     }
     @include media-mobile {
-       text-align: center;
+        text-align: center;
     }
 }
 
@@ -31,7 +31,7 @@
     align-items: center;
     >* {
         margin-right: 44px;
-        &:last-child{
+        &:last-child {
             margin-right: 0;
         }
     }
@@ -40,7 +40,7 @@
         >* {
             margin-right: 0;
             margin-bottom: 26px;
-            &:last-child{
+            &:last-child {
                 margin-bottom: 0;
             }
         }
@@ -60,6 +60,7 @@
         width: auto;
     }
 }
+
 .promo__image {
     @include media-mobile {
         max-width: 100%;
