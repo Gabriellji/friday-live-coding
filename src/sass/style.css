@@ -1288,7 +1288,7 @@ h5 {
   display: flex;
   padding: 35px;
   position: relative;
-  width: calc(30% - $image-gap);
+  width: calc(30% - image-gap);
 }
 
 .employee__name {

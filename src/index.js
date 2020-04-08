@@ -30,7 +30,7 @@ const data = [
 ];
 
 window.onload = function() {
-    console.log('Hello');
+    console.log('Hello RSS');
 
     // Render Articles
     if(data) {
